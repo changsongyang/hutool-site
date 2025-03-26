@@ -25,7 +25,7 @@ String fileName = StrUtil.removeSuffix("pretty_girl.jpg", ".jpg")  //fileName ->
 String str = "abcdefgh";
 String strSub1 = StrUtil.sub(str, 2, 3); //strSub1 -> c
 String strSub2 = StrUtil.sub(str, 2, -3); //strSub2 -> cde
-String strSub3 = StrUtil.sub(str, 3, 2); //strSub2 -> c
+String strSub3 = StrUtil.sub(str, 3, 2); //strSub3 -> c
 ```
 
 需要注意的是，`-1`表示最后一个字符，但是因为`sub`方法的结束index是不包含的，因此传`-1`最后一个字符是取不到的：
